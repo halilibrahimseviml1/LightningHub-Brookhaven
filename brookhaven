@@ -3,7 +3,7 @@ local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
 
 local KeyListURL = "https://pastebin.com/raw/4XqE6xg0"
-local DiscordURL = "https://discord.gg/Aju5HECm3"
+local DiscordURL = "https://discord.gg/AYj9ne7MvN"
 
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "LightningKeySystem"
@@ -1645,7 +1645,7 @@ local function StartLightningHub()
 	AddLabel(MainTab, nil, "Created by halilibrahimseviml1, join my discord server")
 	
 	local discordBtnRef = AddButton(MainTab, "BtnDiscord", function()
-		local discordInvite = "https://discord.gg/3hxTQxe46"
+		local discordInvite = "https://discord.gg/AYj9ne7MvN"
 		if setclipboard then setclipboard(discordInvite) end
 		pcall(function()
 			local req = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
